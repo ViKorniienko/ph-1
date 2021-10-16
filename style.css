@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  background-color: #1d1c1c;
+  color: white;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 1140px;
+}
+
+.column {
+  width: 68px;
+  height: 100vh;
+  background: #341919;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  width: 1140px;
+}
+
+.card {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.card-icon-wrapper {
+  width: 80px;
+  height: 80px;
+  background-color: #ff9c00;
+}
+
+.card-title {
+  font: normal 24px; Raleway, Arial, Helvetica, sans-serif;
+line-height: 0.75;
+
+}
